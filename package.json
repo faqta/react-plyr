@@ -25,7 +25,8 @@
     "test:lint": "eslint src",
     "test:watch": "jest --watch",
     "storybook": "start-storybook -p 6006",
-    "build-storybook": "build-storybook -c .storybook -o docs"
+    "build-storybook": "build-storybook -c .storybook -o docs",
+    "postinstall": "npm run clean && babel src --out-dir lib --ignore test.js,setupTests.js"
   },
   "dependencies": {
     "plyr": "^3.5.1",
