@@ -52,7 +52,7 @@ const defaultProps = {
   // Sprite (for icons)
   loadSprite: true,
   iconPrefix: 'plyr',
-  iconUrl: 'https://cdn.plyr.io/3.3.5/plyr.svg',
+  iconUrl: 'https://cdn.plyr.io/3.5.6/plyr.svg',
 
   // Blank video (used to prevent errors on source change)
   blankVideo: 'https://cdn.plyr.io/static/blank.mp4',
@@ -190,7 +190,7 @@ const defaultProps = {
     },
     youtube: {
       sdk: 'https://www.youtube.com/iframe_api',
-      api: 'https://www.googleapis.com/youtube/v3/videos?id={0}&key={1}&fields=items(snippet(title))&part=snippet',
+      api: 'https://noembed.com/embed?url=https://www.youtube.com/watch?v={0}',
       poster: 'https://img.youtube.com/vi/{0}/maxresdefault.jpg,https://img.youtube.com/vi/{0}/hqdefault.jpg',
     },
     googleIMA: {
